@@ -66,6 +66,7 @@ helm は https://github.com/kubernetes/helm/releases からダウンロード
 * helmとは & helmの使い方 - https://qiita.com/sheepland/items/75b647b71c34c7d38804
 * helm + minikube + prasma - http://blog.soushi.me/entry/2018/01/30/071628
 * helmを使ってKubernetesを楽にする - https://qiita.com/Hiroyuki_OSAKI/items/8965ceb6c90bae3bea76
+* Helmの概要とChart(チャート)の作り方 - https://qiita.com/thinksphere/items/5f3e918015cf4e63a0bc
 
 ```sh
 helm init
