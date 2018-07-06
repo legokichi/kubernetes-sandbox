@@ -10,8 +10,9 @@
     * Skaffoldは、画像を構築/プッシュし、Kubernetesに展開するためのワークフローをラップするツール
     * `skaffold dev` - ローカルでの multistage dockerfile を使った docker image 開発
     * `skaffold run` - kubectl | helm を使ったデプロイタスク
-    * helm ~= npm + package.json
-    * skaffold ~= webpack
+    * `helm ~= npm + package.json`
+    * `skaffold ~= webpack`
+    * `manifest ~= js`
     *  より詳しい説明 - https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle-vs-skaffold-f5aa9561f948
 
 skaffold で複数の helm リリースを展開する。
