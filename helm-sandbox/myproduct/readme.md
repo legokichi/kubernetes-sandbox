@@ -1,3 +1,11 @@
+## これでできる（ようにしたい）こと
+
+* Docker Image の継続的ビルド
+* ローカル docker レジストリへの継続的プッシュ
+* ローカル minikube への helm リリースのデプロイ
+
+## Skaffold + helm
+
 * Skaffoldとhelmとの比較は？ - https://github.com/GoogleContainerTools/skaffold/issues/174
     * Skaffoldは、画像を構築/プッシュし、Kubernetesに展開するためのワークフローをラップするツール
     * `skaffold dev` - ローカルでの multistage dockerfile を使った docker image 開発
@@ -7,6 +15,8 @@
     *  より詳しい説明 - https://blog.hasura.io/draft-vs-gitkube-vs-helm-vs-ksonnet-vs-metaparticle-vs-skaffold-f5aa9561f948
 
 skaffold で複数の helm リリースを展開する。
+
+## フォルダ構成
 
 
 ```
