@@ -1,4 +1,6 @@
+
 ## linkerd2(Conduit)
+* 改札サイト一覧 - https://github.com/linkerd/website
 * https://qiita.com/mamomamo/items/92085e0e508e18bc8532
 * https://qiita.com/hirofumimatsu/items/5f8193c2c4a10c509466
 * https://linkerd.io/2/overview/
@@ -20,6 +22,8 @@ linkerd version
 linkerd install | kubectl apply -f -
 kubectl -n linkerd get pods
 linkerd dashboard
+linkerd dashboard --show linkerd
+linkerd dashboard --show grafana
 curl https://run.linkerd.io/emojivoto.yml \
   | linkerd inject - \
   | kubectl apply -f -
